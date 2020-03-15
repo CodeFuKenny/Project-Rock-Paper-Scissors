@@ -1,3 +1,6 @@
+var pscore;
+var cscore;
+
 function getRandomInt(min,max){
     return Math.floor(Math.random() * (max - min +1)) + min;
 }
@@ -14,8 +17,6 @@ function computerPlay() {
         return "Scissors"
     }
 }
-var pscore;
-var cscore;
 
 function playRound(ps,cs){
     let win = "You Chose " + ps +"\n" + "You Win! " + ps + " beats " + cs + "!";
